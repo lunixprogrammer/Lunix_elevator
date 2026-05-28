@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="app" style="display: none;">
+        <div class="elevator-panel">
+            <div class="screen">
+                <span id="current-floor">0</span>
+                <div class="direction-indicators">
+                    <i class="fas fa-chevron-up" id="arrow-up"></i>
+                    <i class="fas fa-chevron-down" id="arrow-down"></i>
+                </div>
+            </div>
+            
+            <div class="floors-container" id="floors-list">
+                <!-- Les boutons seront générés ici par JS -->
+            </div>
+
+            <div class="emergency-btn">
+                <i class="fas fa-bell"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
